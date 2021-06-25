@@ -1,5 +1,5 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/u1094761/public_html/undangan/application/
-    - /bin/cp -R controllers $DEPLOYPATH
+    - export DEPLOYPATH=/home/u1094761/public_html/undangan/
+    - /bin/cp * $DEPLOYPATH
