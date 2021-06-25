@@ -1,0 +1,62 @@
+.ff0{font-family:sans-serif;visibility:hidden;}
+@font-face{font-family:ff1;src:url(f1.woff)format("woff");}.ff1{font-family:ff1;line-height:0.692871;font-style:normal;font-weight:normal;visibility:visible;}
+.m0{transform:matrix(0.250000,0.000000,0.000000,0.250000,0,0);-ms-transform:matrix(0.250000,0.000000,0.000000,0.250000,0,0);-webkit-transform:matrix(0.250000,0.000000,0.000000,0.250000,0,0);}
+.v0{vertical-align:0.000000px;}
+.ls0{letter-spacing:0.000000px;}
+.sc_{text-shadow:none;}
+.sc0{text-shadow:-0.015em 0 transparent,0 0.015em transparent,0.015em 0 transparent,0 -0.015em  transparent;}
+@media screen and (-webkit-min-device-pixel-ratio:0){
+.sc_{-webkit-text-stroke:0px transparent;}
+.sc0{-webkit-text-stroke:0.015em transparent;text-shadow:none;}
+}
+.ws0{word-spacing:0.000000px;}
+.fc0{color:rgb(0,0,0);}
+.fs0{font-size:88.000000px;}
+.fs1{font-size:144.000000px;}
+.y2{bottom:8.143002px;}
+.y5{bottom:17.643002px;}
+.y1{bottom:46.511003px;}
+.y4{bottom:56.011003px;}
+.y7{bottom:411.350003px;}
+.y6{bottom:519.100003px;}
+.y3{bottom:626.850003px;}
+.y0{bottom:734.600011px;}
+.h2{height:59.597656px;}
+.h1{height:67.050003px;}
+.h4{height:76.550003px;}
+.h3{height:97.523438px;}
+.h0{height:841.700012px;}
+.w1{width:184.300003px;}
+.w2{width:196.050003px;}
+.w0{width:609.849976px;}
+.x1{left:9.950000px;}
+.x0{left:16.450000px;}
+.x2{left:212.550006px;}
+.x3{left:408.650012px;}
+@media print{
+.v0{vertical-align:0.000000pt;}
+.ls0{letter-spacing:0.000000pt;}
+.ws0{word-spacing:0.000000pt;}
+.fs0{font-size:117.333333pt;}
+.fs1{font-size:192.000000pt;}
+.y2{bottom:10.857335pt;}
+.y5{bottom:23.524002pt;}
+.y1{bottom:62.014671pt;}
+.y4{bottom:74.681338pt;}
+.y7{bottom:548.466671pt;}
+.y6{bottom:692.133338pt;}
+.y3{bottom:835.800004pt;}
+.y0{bottom:979.466681pt;}
+.h2{height:79.463542pt;}
+.h1{height:89.400004pt;}
+.h4{height:102.066671pt;}
+.h3{height:130.031250pt;}
+.h0{height:1122.266683pt;}
+.w1{width:245.733337pt;}
+.w2{width:261.400004pt;}
+.w0{width:813.133301pt;}
+.x1{left:13.266666pt;}
+.x0{left:21.933334pt;}
+.x2{left:283.400009pt;}
+.x3{left:544.866683pt;}
+}
