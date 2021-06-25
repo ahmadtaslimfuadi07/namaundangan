@@ -15,6 +15,7 @@
             if(cnt < max){
                 cnt++;
                 $(".textbox-wrapper").append(
+                    '<div class="baru">' +
                     '<hr><div class="item form-group">'+
                         '<label class="col-form-label col-md-2 col-sm-3 label-align" for="first-name">Nama Undangan <span class="required">*</span>'+
                         '</label>'+
@@ -28,7 +29,7 @@
                         '<div class="col-md-10 col-sm-6 ">'+
                             '<input type="text" placeholder="Alamat Tujuan" id="alamat" name="alamat[]" required="required" class="form-control" data-parsley-id="5">' +
                         '</div>'+
-                    '</div>');
+                    '</div></div>');
             }
         });
        
@@ -62,18 +63,21 @@
         $.ajax({
             type: "POST",
             url: url,
+            dataType: 'json',
             data: data,
             success: function(data) {
-                console.log(data.status);
+                console.log(data);
                 NProgress.done();
-                if (data.status == 1){
+                if (data == 1){
                     new PNotify({
-                      title: 'Regular Success',
-                      text: 'That thing that you were trying to do worked!',
+                      title: 'Simpan Berhasil',
+                      text: 'Bisa lanjut menambah atau mau lihat di data anda!',
                       type: 'success',
                       styling: 'bootstrap3'
                   });
-                    $(".simpanbutton").attr("disabled", "disabled").button('refresh');
+                    // $(".simpanbutton").attr("disabled", "disabled").button('refresh');
+                    $("#pernikahanform")[0].reset();
+                    $(".baru").remove();
                 }
                 else{
                     new PNotify({

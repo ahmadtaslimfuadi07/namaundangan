@@ -39,16 +39,15 @@
                                     <input type="text" placeholder="Alamat tujuan" id="alamat" name="alamat[]" required="required" class="form-control" data-parsley-id="5">
                                 </div>
                             </div>  
-                             </div>
-                            <button type="button" class="btn btn-success add-textbox"><i class="glyphicon glyphicon-plus"></i></button>
-                            <div class="ln_solid"></div>
-                            <div class="item form-group">
-                                <div class="col-md-6 col-sm-6 offset-md-2">
-                                    <button type="button" class="btn btn-warning" onclick="window.history.go(-1); return false;">Back</button>
-                                    <button type="button" class="btn btn-success simpanbutton" onclick="simpan()">Submit</button>
-                                </div>
+                        </div>
+                        <button type="button" class="btn btn-success add-textbox"><i class="glyphicon glyphicon-plus"></i></button>
+                        <div class="ln_solid"></div>
+                        <div class="item form-group">
+                            <div class="col-md-6 col-sm-6 offset-md-2">
+                                <button type="button" class="btn btn-warning" onclick="window.history.go(-1); return false;">Back</button>
+                                <button type="button" class="btn btn-success simpanbutton" onclick="simpan()">Submit</button>
                             </div>
-                     
+                        </div>
                     </form>
                 </div>
             </div>
@@ -56,7 +55,3 @@
     </div>
 </div>
 <!-- PNotify -->
-
-<script type="text/javascript">
-   
-</script>

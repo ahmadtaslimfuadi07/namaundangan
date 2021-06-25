@@ -182,7 +182,7 @@ class Myadmin extends CI_Controller
 
     public function simpanundangan(){
         $post = $this->input->post();
-        var_dump($post);
+        // var_dump($post);
 
         $nama = $post['namaundangan'];
         $alamat = $post['alamat'];+
@@ -191,7 +191,7 @@ class Myadmin extends CI_Controller
 
         foreach($nama as $key=> $value){
             if($value != '' && $post['alamat'][$key]!= ''){
-                $no++;
+                $nodata++;
                 $reg_dat = array(
                     'iduser'     => $post['iduser'],
                     'nama'       => $value,
@@ -205,7 +205,7 @@ class Myadmin extends CI_Controller
         }
 
         if($nodata == $simpandata){
-            echo 1;
+            echo json_encode($json['status'] = 1);
         }
         else{
             echo 0;
