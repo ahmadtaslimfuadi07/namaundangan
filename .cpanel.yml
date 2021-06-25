@@ -1,11 +1,5 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/u1094761/public_html/undangan/
-    - /bin/cp index.html $DEPLOYPATH
-    - /bin/cp style.css $DEPLOYPATH
-    - /bin/cp index.php $DEPLOYPATH
-    - /bin/cp -R application $DEPLOYPATH
-    - /bin/cp -R assets $DEPLOYPATH
-    - /bin/cp -R system $DEPLOYPATH
-    - /bin/cp -R vendor $DEPLOYPATH
+    - export DEPLOYPATH=/home/u1094761/public_html/undangan/application/
+    - /bin/cp -R controllers $DEPLOYPATH
